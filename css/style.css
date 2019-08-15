@@ -24,7 +24,7 @@ body .form .btn-login{
     background: orangered;
     color: white;
     border: none;
-    padding: 8px 1.2em;
+    padding: .5rem 1.2em;
     border-radius: 20px;
     font-size: 15px;
 }
@@ -62,9 +62,10 @@ body .form input{
 .container .regularlogin{
     width: 50%;
     float: right;
-    padding-right: 5%;
+    margin-right: 5%;
     position: relative;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-items: left;
 }
 .container .regularlogin .inputs{
@@ -79,6 +80,7 @@ body .form input{
     color: lightslategray;
     font-size: .9em;
     padding-left: 50%;
+    width: 100%
 }
 .container .regularlogin .Forgot:hover{
     color: orangered;
@@ -86,7 +88,97 @@ body .form input{
 .container span{
     content: ' ';
     height: 200px;
-    width: 1px;
+    width: 2px;
     background-color: orangered;
-    margin-right: 4em;
+    margin-right: 6%;
+}
+
+
+@media (max-width:950px) {
+    .container{
+    border-radius: 25px;
+    background: white;
+    width: 70%;
+    height: 50%;
+    display: flex;
+    position: absolute;
+    left: 15%;
+    top: 10%;
+    }
+    .container .regularlogin{
+        width: 70%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        float: left;
+        
+    }
+    .container .regularlogin .Forgot{
+        text-decoration: none;
+        color: lightslategray;
+        font-size: .9rem;
+        width: 100%;
+        float: right;
+        margin-bottom: 1rem;
+        position: relative;
+    }
+    .container span{
+        content: ' ';
+        height: 200px;
+        width: 2px;
+        background-color: orangered;
+        margin-right: 6%;
+    }
+    
+}
+
+@media (max-width:550px) {
+    .container{
+        border-radius: 25px;
+        background: white;
+        width: 60vw;
+        height: 80vh;
+        display: grid;
+        grid-template-areas: "a";
+        position: absolute;
+        left: 20%;
+        
+    }
+    .container span{
+        content: ' ';
+        height: 1px;
+        width: 80%;
+        margin-left: 2%;
+        position: relative;
+        background-color: orangered;
+        
+    }
+    .container .logo-guestlogin{
+        width: 70%;
+        position: relative;
+        display: grid;
+        grid-template-areas: 'a';
+        margin-bottom: none;
+    }
+    .container .regularlogin{
+        width: 70%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        float: left;
+    }
+    .container .regularlogin .inputs{
+        width: 90%;
+        float: left;
+        border-radius: 20px;   
+    }
+    .container .regularlogin .Forgot{
+        text-decoration: none;
+        color: lightslategray;
+        font-size: .9rem;
+        width: 100%;
+        float: right;
+        margin-bottom: 1rem;
+        position: relative;
+    }
 }

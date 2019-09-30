@@ -1,24 +1,27 @@
-body{ 
+body {
     margin: 0%;
     padding: 0%;
     height: 100vh;
     font-family: sans-serif;
 }
-body img{
+
+body img {
     height: 100vh;
     width: 100%;
 
 
 }
-body .overlay{
+
+body .overlay {
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient( to bottom right , #d442f5b7 , #410082b7);
+    background-image: linear-gradient(to bottom right, #d442f5b7, #410082b7);
     position: absolute;
     top: 0%;
 }
-header{
-    
+
+header {
+
     background-color: rgba(0, 0, 0, 0.541);
     padding-top: 0%;
     margin-top: 0%;
@@ -29,18 +32,21 @@ header{
     display: flex;
     align-items: center;
 }
-header .user{
+
+header .user {
     position: relative;
-    right: -60vw; 
-    color: white;  
+    right: -60vw;
+    color: white;
 }
-header .logo-title{
+
+header .logo-title {
     text-decoration: none;
     color: white;
     position: relative;
     left: 40px;
 }
-section{
+
+section {
     position: relative;
     display: grid;
     align-items: center;
@@ -49,14 +55,16 @@ section{
     max-width: 100vw;
     padding-top: 70px;
     padding-bottom: 27px;
-    
+
 }
-section .container a{
+
+section .container a {
     text-decoration: none;
     width: 150px;
     height: 150px;
 }
-section .container{
+
+section .container {
     height: 75vh;
     width: 75vw;
     background: rgba(19, 23, 36, 0.699);
@@ -71,7 +79,8 @@ section .container{
     overflow: auto;
     margin-left: 20vw;
 }
-section .container .boxstyle{
+
+section .container .boxstyle {
     width: 150px;
     height: 150px;
     display: grid;
@@ -79,108 +88,120 @@ section .container .boxstyle{
     justify-content: center;
     color: white;
     border-radius: 25px;
-    
+
 }
 
-section .container .boxstyle .content{
+section .container .boxstyle .content {
     display: grid;
     align-items: center;
     justify-items: center;
 }
 
-footer{
+footer {
     background-color: rgb(0, 7, 20);
-    color:white;
+    color: white;
     height: 10vh;
     width: 80vw;
     margin-left: 20vw;
 }
-section .container .box-1{
-    background: linear-gradient(135deg, rgba(241,231,103,0.7) 0%, rgba(254,182,69,0.7) 100%);   
+
+section .container .box-1 {
+    background: linear-gradient(135deg, rgba(241, 231, 103, 0.7) 0%, rgba(254, 182, 69, 0.7) 100%);
 }
-section .container .box-1:hover{
-    background: linear-gradient(45deg, rgba(241,231,103,0.7) 0%, rgba(254,182,69,0.7) 100%); 
+
+section .container .box-1:hover {
+    background: linear-gradient(45deg, rgba(241, 231, 103, 0.7) 0%, rgba(254, 182, 69, 0.7) 100%);
 }
 
 
-section .container .box-2{
-    background: linear-gradient(135deg, rgba(210,255,82,0.7) 0%, rgba(90,186,0,0.7) 100%);
+section .container .box-2 {
+    background: linear-gradient(135deg, rgba(210, 255, 82, 0.7) 0%, rgba(90, 186, 0, 0.7) 100%);
 }
-section .container .box-2:hover{
-    background: linear-gradient(45deg, rgba(210,255,82,0.7) 0%, rgba(90,186,0,0.7) 100%);
+
+section .container .box-2:hover {
+    background: linear-gradient(45deg, rgba(210, 255, 82, 0.7) 0%, rgba(90, 186, 0, 0.7) 100%);
 }
 
 
-section .container .box-3{
-    background: linear-gradient(135deg, rgba(73,155,234,0.7) 0%, rgba(10, 91, 184, 0.7) 100%);
+section .container .box-3 {
+    background: linear-gradient(135deg, rgba(73, 155, 234, 0.7) 0%, rgba(10, 91, 184, 0.7) 100%);
 }
-section .container .box-3:hover{
-    background: linear-gradient(45deg, rgba(73,155,234,0.7) 0%, rgba(10, 91, 184, 0.7) 100%);
+
+section .container .box-3:hover {
+    background: linear-gradient(45deg, rgba(73, 155, 234, 0.7) 0%, rgba(10, 91, 184, 0.7) 100%);
 }
 
 
-section .container .box-4{
-    background: linear-gradient(135deg, rgba(132,0,255,0.7) 0%, rgba(93,0,143,0.7) 100%);
+section .container .box-4 {
+    background: linear-gradient(135deg, rgba(132, 0, 255, 0.7) 0%, rgba(93, 0, 143, 0.7) 100%);
 }
-section .container .box-4:hover{
-    background: linear-gradient(45deg, rgba(132,0,255,0.7) 0%, rgba(93,0,143,0.7) 100%);
+
+section .container .box-4:hover {
+    background: linear-gradient(45deg, rgba(132, 0, 255, 0.7) 0%, rgba(93, 0, 143, 0.7) 100%);
 }
 
 
-section .container .box-5{
-    background: linear-gradient(135deg, rgba(255,74,240,0.7) 0%, rgba(176,0,135,0.7) 100%)
-}
-section .container .box-5:hover{
-    background: linear-gradient(45deg, rgba(255,74,240,0.7) 0%, rgba(176,0,135,0.7) 100%)
+section .container .box-5 {
+    background: linear-gradient(135deg, rgba(255, 74, 240, 0.7) 0%, rgba(176, 0, 135, 0.7) 100%)
 }
 
-@media (max-width: 1000px){
-    header .user{
+section .container .box-5:hover {
+    background: linear-gradient(45deg, rgba(255, 74, 240, 0.7) 0%, rgba(176, 0, 135, 0.7) 100%)
+}
+
+@media (max-width: 1000px) {
+    header .user {
         position: relative;
-        right: -50vw; 
-        color: white;  
+        right: -50vw;
+        color: white;
     }
 
-    section .container{
-    display: grid;
-    grid-template-areas: "a a";
-    grid-gap: 50px 50px;
-    padding-top: 50px;
-    align-content: initial;
-    grid-auto-rows: auto;
+    section .container {
+        display: grid;
+        grid-template-areas: "a a";
+        grid-gap: 50px 50px;
+        padding-top: 50px;
+        align-content: initial;
+        grid-auto-rows: auto;
     }
-    body img{
+
+    body img {
         height: 130vh;
         width: 100%;
     }
-    body .overlay{
+
+    body .overlay {
         height: 130vh;
         width: 100%;
-        background-image: linear-gradient( to bottom right , #d442f5b7 , #410082b7);
+        background-image: linear-gradient(to bottom right, #d442f5b7, #410082b7);
         position: absolute;
         top: 0%;
     }
 }
-@media (max-width: 550px){
-    header .user{
+
+@media (max-width: 550px) {
+    header .user {
         position: relative;
-        right: -35vw; 
-        color: white;  
+        right: -35vw;
+        color: white;
     }
-    section .container{
-    display: grid;
-    grid-template-areas: "a";
-    grid-gap: 50px 150px;
-    grid-auto-rows: auto;
+
+    section .container {
+        display: grid;
+        grid-template-areas: "a";
+        grid-gap: 50px 150px;
+        grid-auto-rows: auto;
     }
-    body img{
+
+    body img {
         height: 210vh;
         width: 100%;
     }
-    body .overlay{
+
+    body .overlay {
         height: 210vh;
         width: 100%;
-        background-image: linear-gradient( to bottom right , #d442f5b7 , #410082b7);
+        background-image: linear-gradient(to bottom right, #d442f5b7, #410082b7);
         position: absolute;
         top: 0%;
     }
